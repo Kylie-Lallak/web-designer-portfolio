@@ -4,7 +4,7 @@
     
     height: 100vh;
     width: 100%;
-    background: linear-gradient(45deg, #856fb4, #fffefe, #94c8e1, #f1d1ee);
+    background: linear-gradient(45deg, #a290c9, #f8e5e5, #c2e0ee, #f1d1ee);
     background-size:300% 300%;
     animation: color 10s ease-in-out infinite;
   
@@ -21,31 +21,3 @@
         background-position: 0% 50%;
     }
 }
-/*other styings */
-*{
-    font-family: Poppins;
-}
-#header{
-    margin-left: 3rem;
-    margin-top: 5rem;
-}
-#header-intro{
-    font-size: 2.2rem;
-}
-#header-main-text{
-    font-size: 3.5rem;
-}
-#phone{
-    max-height: 700px;
-    margin-top: 3rem;
-    margin-left: 3rem;
-}
-#home-button{
-    background-color: black;
-    color: white;
-    padding:20px 40px 20px 40px;
-    margin-top: 2rem;
-    
-  
-}
-

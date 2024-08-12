@@ -14,7 +14,7 @@ export default function home() {
         and I'm a <span className='font-bold'>UI/UX Designer</span>
         </div>
 
-        <p className='max-w-md'> I'm a UI/UX designer passionate about creating intuitive and visually compelling digital experiences. I focus on crafting functional, aesthetically pleasing interfaces that enhance user interactions.</p>
+        <p className='max-w-md'> I'm a UI/UX designer passionate about creating intuitive and visually compelling digital experiences.</p>
       
       <button id='home-button'className='shadow-lg'>Learn More</button>
 

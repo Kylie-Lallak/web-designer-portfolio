@@ -1,12 +1,13 @@
 import React from 'react'
 import Phone from '../images/iphone.png';
 import '../styles/home.css'; 
+import { Link } from 'react-router-dom';
 
 export default function home() {
   return (
-    <div id='background' className='flex'>
+    <div id='background' className='flex flex-col sm:flex-row'>
 
-      <div id='header' className='flex-col  '>
+      <div id='header' className='mt-8 text-center justify-center sm:text-left sm:ml-12 sm:mt-24'>
 
        
         <h1 id="header-intro">Hi Im Jane Doe,</h1>
@@ -14,15 +15,15 @@ export default function home() {
         and I'm a <span className='font-bold'>UI/UX Designer</span>
         </div>
 
-        <p className='max-w-md'> I'm a UI/UX designer passionate about creating intuitive and visually compelling digital experiences.</p>
+       
       
-      <button id='home-button'className='shadow-lg'>Learn More</button>
+      <Link to='/about'> <button id='home-button'className='shadow-xl'>Learn More</button> </Link>
 
     
       
 
       </div>
-      <img id="phone"src={Phone}></img>
+      <img id="phone"src={Phone} className='mx-auto'></img>
     
       
 

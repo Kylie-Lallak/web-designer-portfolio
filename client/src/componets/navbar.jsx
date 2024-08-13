@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import '../styles/navbar.css';
 
 export default function Navbar() {
     const [showNavbar, setShowNavbar] = useState(false);
@@ -20,19 +21,19 @@ export default function Navbar() {
     
 
     return (
-        <nav className=' flex justify-between items-center w-[92%] mx-auto'>
-            <h1>
+        <nav className=' pb-4 flex justify-between items-center w-[92%] mx-auto' id='nav'>
+            <h1 className='font-bold text-xl'>
                 Portfolio
             </h1>
 
 
-            <div className={`md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 md:w-auto w-full flex items-center px-5 ${showNavbar ? 'top-[9%]' : 'top-[-100%]'}`}>
-                <ul className='flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8'>
-                    <Link to='/'> <li>Home</li> </Link>
-                    <Link to='/about'> <li>About</li> </Link>
-                    <Link to='/skills'> <li>Skills</li> </Link>
-                    <Link to='/portfolio'> <li>Portfolio</li> </Link>
-                    <Link to='/contact'> <li>Contact</li> </Link>
+            <div className={`  md:static absolute bg-white md:min-h-fit min-h-[30vh] left-0 md:w-auto w-full flex items-center px-5 ${showNavbar ? 'top-[9%]' : 'top-[-100%]'}`}>
+                <ul className=' text-lg flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 '>
+                    <Link to='/'> <li className='hover:text-gray-400'>Home</li> </Link>
+                    <Link to='/about'> <li className='hover:text-gray-400'>About</li> </Link>
+                    <Link to='/skills'> <li className='hover:text-gray-400'>Skills</li> </Link>
+                    <Link to='/portfolio'> <li className='hover:text-gray-400'>Portfolio</li> </Link>
+                  <Link to='/contact'> <li className='hover:text-gray-400'>Contact</li> </Link>
                 </ul>
             </div>
             <div className='cursor-pointer md:hidden' onClick={() => setShowNavbar(prev => !prev)}>

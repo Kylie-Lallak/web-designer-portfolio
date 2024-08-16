@@ -72,27 +72,20 @@
     padding-bottom: 1rem;
 
 }
+
+#about-principles-card-container{
+    max-width: 80rem;
+
+}
 #about-principles-section{
   
     margin-top: 8rem;
     background-color: grey;
     padding-bottom: 3rem;
-
-
-
-
-
-
     background: linear-gradient(45deg, #af9bdb, #a8dbf2, #f1d1ee);
     animation: color 5s ease-in-out infinite;
     background-size: 400% 400%; /* Adjust size to fit the animation */
-
-
     
-}
-.full-lenght{
-    height: 300vh;
-
 }
 
 

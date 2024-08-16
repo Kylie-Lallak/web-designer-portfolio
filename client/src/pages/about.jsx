@@ -76,40 +76,40 @@ export default function about() {
 
         <h1 id='about-principles-title' className='mb-10 font-semibold text-center text-4xl sm:text-6xl mt-14 pt-9 sm:text-left sm:ml-9'>My Principles </h1>
 
+      <div id='about-principles-card-container' className=' mx-auto flex flex-col  justify-center items-center sm:flex-row sm:flex-wrap sm:gap-5'>
+            <div  className='about-principles-card bg-white bg-opacity-50 mt-5  rounded-md shadow-xl font-light'>
+              <h1 className='about-principles-card-title '>UX is the sum of all things.</h1>
+              <p>There’s no style over substance here. I bring together form and the function to create something that looks good and performs brilliantly. Simple.</p>
 
-        <div  className='about-principles-card bg-white bg-opacity-50 mt-5  mx-auto rounded-md shadow-xl font-light'>
-          <h1 className='about-principles-card-title '>UX is the sum of all things.</h1>
-          <p>There’s no style over substance here. I bring together form and the function to create something that looks good and performs brilliantly. Simple.</p>
+            </div>
 
-        </div>
+            <div  className='about-principles-card bg-white bg-opacity-50 mt-5  rounded-md shadow-xl font-light'>
+              <h1 className='about-principles-card-title '>Perfection doesn’t do a 9-­5.</h1>
+              <p>And neither do I. I’m not bound to any time zones or tied to a desk. The project dictates where I need to be and who I need to collaborate with. Essentially, I always go the extra mile.</p>
 
-        <div  className='about-principles-card bg-white bg-opacity-50 mt-5  mx-auto rounded-md shadow-xl font-light'>
-          <h1 className='about-principles-card-title '>Perfection doesn’t do a 9-­5.</h1>
-          <p>And neither do I. I’m not bound to any time zones or tied to a desk. The project dictates where I need to be and who I need to collaborate with. Essentially, I always go the extra mile.</p>
+            </div>
 
-        </div>
+            <div  className='about-principles-card bg-white bg-opacity-50 mt-5  rounded-md shadow-xl font-light'>
+              <h1 className='about-principles-card-title '>Clients. Curated.</h1>
+              <p>I take on a limited number of projects at one time. This quality control means I can give each one exactly what it needs – focus and time. </p>
+            </div>
 
-        <div  className='about-principles-card bg-white bg-opacity-50 mt-5  mx-auto rounded-md shadow-xl font-light'>
-          <h1 className='about-principles-card-title '>Clients. Curated.</h1>
-          <p>I take on a limited number of projects at one time. This quality control means I can give each one exactly what it needs – focus and time. </p>
-        </div>
+            <div  className='about-principles-card bg-white bg-opacity-50 mt-5   rounded-md shadow-xl font-light'>
+              <h1 className='about-principles-card-title '>Creator. Partner. Collaborator.</h1>
+              <p>Ideas are far from linear. As designer and developer, I can spearhead, support or polish your project or product at any stage it needs it. </p>
+            </div>
 
-        <div  className='about-principles-card bg-white bg-opacity-50 mt-5  mx-auto rounded-md shadow-xl font-light'>
-          <h1 className='about-principles-card-title '>Creator. Partner. Collaborator.</h1>
-          <p>Ideas are far from linear. As designer and developer, I can spearhead, support or polish your project or product at any stage it needs it. </p>
-        </div>
-
-        <div  className='about-principles-card bg-white bg-opacity-50 mt-5  mx-auto rounded-md shadow-xl font-light '>
-          <h1 className='about-principles-card-title '>Clean ­– In thinking, in style.</h1>
-          <p>Simple, minimal and effective. This is my mantra and method. Clean code, fuss-free interfaces and expert execution, design as it should be. </p>
-        </div>
-
+            <div  className='about-principles-card bg-white bg-opacity-50 mt-5  rounded-md shadow-xl font-light '>
+              <h1 className='about-principles-card-title '>Clean ­– In thinking, in style.</h1>
+              <p>Simple, minimal and effective. This is my mantra and method. Clean code, fuss-free interfaces and expert execution, design as it should be. </p>
+            </div>
+       </div>
 
 
 
       </div>
 
-         
+  
    
     </>
   )

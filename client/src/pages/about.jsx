@@ -116,13 +116,13 @@ export default function about() {
         <h3 className='mb-10 font-semibold text-center text-lg  mt-12  '>You know about me, let’s talk about you.</h3>
        
        
-        <div id='about-contact-buttons' className='flex flex-row gap-1 justify-center sm:gap-5'>
-        <Link to='/portfolio'><button className="mt-6 shadow-md rounded-2xl border-2 border-dashed border-black bg-white px-12 py-6 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
+        <div id='about-contact-buttons' className='flex flex-row gap-4 justify-center sm:gap-5'>
+        <Link to='/portfolio'><button className="mt-6 shadow-md rounded-2xl border-2 border-dashed border-black bg-white py-4 px-4 sm:px-12 sm:py-6 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
            Check out my work
               </button>
        </Link>
 
-       <Link to='/contact'><button className="mt-6 shadow-md rounded-2xl border-2 border-dashed border-black bg-white px-12 py-6 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
+       <Link to='/contact'><button className="mt-6 shadow-md rounded-2xl border-2 border-dashed border-black bg-white px-4 py-4 sm:px-12 sm:py-6 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
            Shoot me a message
               </button>
        </Link>

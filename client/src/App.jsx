@@ -5,7 +5,9 @@ import Contact from './pages/contact';
 import Portfolio from './pages/portfolio';
 import Skills from './pages/skills';
 
+
 import Navbar from './componets/navbar';
+import Footer from './componets/Footer'
 
 
 
@@ -15,6 +17,8 @@ function App() {
   return (
     <BrowserRouter>
     <Navbar />
+   
+
     <Routes>
       <Route path='/' element={<Home />}/>
       <Route path='/about' element={<About />}/>
@@ -22,7 +26,7 @@ function App() {
       <Route path='/portfolio' element={<Portfolio />}/>
       <Route path='/skills' element={<Skills />}/>
     </Routes>
-       
+    <Footer />
     </BrowserRouter>
   )
 }

@@ -73,7 +73,7 @@ export default function about() {
 
       </div>
 
-      <div id='about-principles-section' className=''>
+      <div id='about-principles-section' className='pb-20'>
 
 
         <h1 id='about-principles-title' className='mb-10 font-semibold text-center text-4xl sm:text-6xl mt-14 pt-9 '>My Principles </h1>
@@ -132,6 +132,8 @@ export default function about() {
 
 
       </div>
+
+      <div class=" ml-16 mr-16 h-px bg-gray-400 my-4 sm:ml-24 sm:mr-24"></div>
 
   
    

@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles/about.css';
+import { Link } from 'react-router-dom';
+
 import about1 from '../images/about1.png';
 import about2 from '../images/about2.png';
 import about3 from '../images/about3.png';
@@ -23,7 +25,7 @@ export default function about() {
 
       <div id='about-services-section '>
 
-        <h1 className='mb-10 font-semibold text-center text-4xl sm:text-6xl mt-12 sm:text-left sm:ml-9'> My Services</h1>
+        <h1 className='mb-10 font-semibold text-center text-4xl sm:text-6xl mt-12'> My Services</h1>
     
     
     <div id='card-container' className='gap-5 flex flex-col justify-center items-center lg:flex-row'>
@@ -74,7 +76,7 @@ export default function about() {
       <div id='about-principles-section' className=''>
 
 
-        <h1 id='about-principles-title' className='mb-10 font-semibold text-center text-4xl sm:text-6xl mt-14 pt-9 sm:text-left sm:ml-9'>My Principles </h1>
+        <h1 id='about-principles-title' className='mb-10 font-semibold text-center text-4xl sm:text-6xl mt-14 pt-9 '>My Principles </h1>
 
       <div id='about-principles-card-container' className=' mx-auto flex flex-col  justify-center items-center sm:flex-row sm:flex-wrap sm:gap-5'>
             <div  className='about-principles-card bg-white bg-opacity-50 mt-5  rounded-md shadow-xl font-light'>
@@ -105,6 +107,28 @@ export default function about() {
             </div>
        </div>
 
+
+
+      </div>
+
+      <div id='about-contact' className='pb-14'>
+        <h1 className='mb-10 font-semibold text-center text-4xl sm:text-6xl mt-12 '>Ready to get started?</h1>
+        <h3 className='mb-10 font-semibold text-center text-lg  mt-12  '>You know about me, let’s talk about you.</h3>
+       
+       
+        <div id='about-contact-buttons' className='flex flex-row gap-1 justify-center sm:gap-5'>
+        <Link to='/portfolio'><button className="mt-6 shadow-md rounded-2xl border-2 border-dashed border-black bg-white px-12 py-6 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
+           Check out my work
+              </button>
+       </Link>
+
+       <Link to='/contact'><button className="mt-6 shadow-md rounded-2xl border-2 border-dashed border-black bg-white px-12 py-6 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
+           Shoot me a message
+              </button>
+       </Link>
+
+
+        </div>
 
 
       </div>

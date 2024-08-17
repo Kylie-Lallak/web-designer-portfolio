@@ -85,6 +85,9 @@
     background: linear-gradient(45deg, #af9bdb, #a8dbf2, #f1d1ee);
     animation: color 5s ease-in-out infinite;
     background-size: 400% 400%; /* Adjust size to fit the animation */
+    clip-path: polygon(0 0, 100% 0%, 100% 97%, 0% 100%);
+
+
     
 }
 
@@ -100,3 +103,4 @@
     padding:2rem;
     
 }
+

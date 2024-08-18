@@ -31,7 +31,7 @@ export default function Navbar() {
                 <ul className=' text-lg flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 '>
                     <Link to='/'> <li className='hover:text-gray-400'>Home</li> </Link>
                     <Link to='/about'> <li className='hover:text-gray-400'>About</li> </Link>
-                    <Link to='/skills'> <li className='hover:text-gray-400'>Skills</li> </Link>
+             
                     <Link to='/portfolio'> <li className='hover:text-gray-400'>Portfolio</li> </Link>
                   <Link to='/contact'> <li className='hover:text-gray-400'>Contact</li> </Link>
                 </ul>

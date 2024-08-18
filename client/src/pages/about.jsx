@@ -111,7 +111,7 @@ export default function about() {
 
       </div>
 
-      <div id='about-contact' className='pb-14'>
+      <div id='about-contact' className='pb-14 pt-10'>
         <h1 className='mb-10 font-semibold text-center text-4xl sm:text-6xl mt-12 '>Ready to get started?</h1>
         <h3 className='mb-10 font-semibold text-center text-lg  mt-12  '>You know about me, let’s talk about you.</h3>
        

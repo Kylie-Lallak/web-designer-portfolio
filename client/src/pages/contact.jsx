@@ -44,16 +44,18 @@ export default function contact() {
 
     </div>
 
-    <div id='contact-section-2' className='mt-20 flex flex-col items-center'>
+    <div id='contact-section-2' className='mt-20 gap-8 sm:gap-4 md:gap-2 flex flex-col items-center md:flex-row md:justify-center md:mt-32 lg:mt-40 lg:mb-28'>
 
-      <div id='contact-section-2-1' className='contact-section-2-card mx-14 sm:mx-28'>
+      <div id='contact-section-2-1' className='contact-section-2-card mx-14 sm:mx-20'>
         <h2 className='font-semibold text-center text-xl mb-4'>Working Together</h2>
-        <p className=' text-center text-lg  text-gray-600'>Excited about new projects? Let's bring your vision to life—drop me a message, and let's collaborate!</p>
+        <p className=' text-center text-base  text-gray-600'>Excited about new projects? Let's bring your vision to life—drop me a message, and let's collaborate!</p>
       </div>
 
-      <div id='contact-section-2-1' className='contact-section-2-card mx-10 mt-14 sm:mx-28'>
+      <div class="md:w-px md:h-48 bg-gray-300 md:mx-4 invisible md:visible"></div>
+
+      <div id='contact-section-2-1' className='contact-section-2-card mx-14 sm:mx-20'>
         <h2 className='font-semibold text-center text-xl mb-4'>General Communication</h2>
-        <p className=' text-center text-lg  text-gray-600'>For inquiries or partnership opportunities, I'd love to connect! Reach out, and let's create something great together.</p>
+        <p className=' text-center text-base  text-gray-600'>For inquiries or partnership opportunities, I'd love to connect! Reach out, and let's create something great together.</p>
       </div>
 
      
@@ -64,7 +66,7 @@ export default function contact() {
     </div>
 
 
-    <div class=" ml-16 mr-16 mt-16 h-px bg-gray-400 my-4 sm:ml-24 sm:mr-24"></div>
+    <div class=" ml-16 mr-16 mt-28 h-px bg-gray-500 my-4 sm:ml-24 sm:mr-24"></div>
    
      
 

@@ -44,8 +44,27 @@ export default function contact() {
 
     </div>
 
+    <div id='contact-section-2' className='mt-20 flex flex-col items-center'>
 
-    <div class=" ml-16 mr-16 h-px bg-gray-400 my-4 sm:ml-24 sm:mr-24"></div>
+      <div id='contact-section-2-1' className='contact-section-2-card mx-14 sm:mx-28'>
+        <h2 className='font-semibold text-center text-xl mb-4'>Working Together</h2>
+        <p className=' text-center text-lg  text-gray-600'>Excited about new projects? Let's bring your vision to life—drop me a message, and let's collaborate!</p>
+      </div>
+
+      <div id='contact-section-2-1' className='contact-section-2-card mx-10 mt-14 sm:mx-28'>
+        <h2 className='font-semibold text-center text-xl mb-4'>General Communication</h2>
+        <p className=' text-center text-lg  text-gray-600'>For inquiries or partnership opportunities, I'd love to connect! Reach out, and let's create something great together.</p>
+      </div>
+
+     
+
+      
+
+
+    </div>
+
+
+    <div class=" ml-16 mr-16 mt-16 h-px bg-gray-400 my-4 sm:ml-24 sm:mr-24"></div>
    
      
 

@@ -4,7 +4,7 @@
 }
 
 #about-header {
-    height: 40vh;
+    height: 45vh;
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
     background: linear-gradient(45deg, #af9bdb, #a8dbf2, #f1d1ee);
     background-size: 400% 400%; /* Adjust size to fit the animation */

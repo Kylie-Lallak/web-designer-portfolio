@@ -13,7 +13,7 @@ export default function about() {
 
         <div id='about-header-title' className='text-center pt-11 text-2xl' >
 
-             <span className='font-bold'> - About me -</span>
+             <span className='font-semibold text-center text-4xl sm:text-6xl pt-10'> About me</span>
          </div>
          <div id='about-header-box' className='bg-white bg-opacity-50 mt-5  mx-auto rounded-md shadow-md font-light'>
         

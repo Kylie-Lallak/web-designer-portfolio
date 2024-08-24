@@ -1,0 +1,10 @@
+#port-header{
+    background: linear-gradient(45deg, #af9bdb, #a8dbf2, #f1d1ee);
+    background-size:300% 300%;
+    animation: color 6s ease-in-out infinite;
+    width: 100%;
+   height: 35vh;
+    clip-path: polygon(0 0, 100% 0, 100% 77%, 0 100%);
+   
+
+}

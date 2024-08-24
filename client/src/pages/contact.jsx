@@ -66,7 +66,7 @@ export default function contact() {
     </div>
 
 
-    <div class=" ml-16 mr-16 mt-28 h-px bg-gray-500 my-4 sm:ml-24 sm:mr-24"></div>
+    <div class=" ml-16 mr-16 mt-28 h-px bg-gray-300 my-4 sm:ml-24 sm:mr-24"></div>
    
      
 

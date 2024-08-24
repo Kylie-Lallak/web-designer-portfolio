@@ -133,7 +133,7 @@ export default function about() {
 
       </div>
 
-      <div class=" ml-16 mr-16 h-px bg-gray-400 my-4 sm:ml-24 sm:mr-24"></div>
+      <div class=" ml-16 mr-16 h-px bg-gray-300 my-4 sm:ml-24 sm:mr-24"></div>
 
   
    

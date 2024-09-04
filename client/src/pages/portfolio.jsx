@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/portfolio.css';
 import Card from '../componets/PortfolioCard';
 import portfolioCards from '../componets/portfolioCards';
+import { Link } from 'react-router-dom';
 
 export default function portfolio() {
   return (
@@ -19,6 +20,28 @@ export default function portfolio() {
         ))}
 
       </div>
+
+
+      <div id='about-contact' className='pb-14 pt-10'>
+        <h1 className='mb-10 font-semibold text-center text-4xl sm:text-6xl mt-12 '>Ready to get started?</h1>
+        <h3 className='mb-10 font-semibold text-center text-lg  mt-12  '>You know about me, let’s talk about you.</h3>
+
+
+        <div id='about-contact-buttons' className='flex flex-row gap-4 justify-center sm:gap-5'>
+
+
+          <Link to='/contact'><button className="mt-6 shadow-md rounded-2xl border-2 border-dashed border-black bg-white px-4 py-4 sm:px-12 sm:py-6 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
+            Shoot me a message
+          </button>
+          </Link>
+
+
+        </div>
+
+
+      </div>
+
+      <div class=" ml-16 mr-16 h-px bg-gray-300 my-4 sm:ml-24 sm:mr-24"></div>
 
 
     </>

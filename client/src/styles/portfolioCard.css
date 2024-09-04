@@ -12,11 +12,9 @@
 
     background-color: white;
 
-    border-radius: 0.375rem
-        /* 6px */
-    ;
+    border-radius: 2rem;
 
-    width: 32rem;
+
 }
 
 #card-bottom {
@@ -26,8 +24,11 @@
 #card-image {
     max-height: 33rem;
     transition: transform 0.5s ease;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 
 #card-image:hover {
     transform: scale(1.2);
+
 }

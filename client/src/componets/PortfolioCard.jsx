@@ -6,7 +6,7 @@ import KnoImage from '../images/knowlexImage.png';
 export default function PortfolioCard() {
   return (
 
-    <div id='card' className=''>
+    <div id='card' className='max-w-96 lg:max-w-lg'>
 
       <div id='card-top' className='my-8 mx-8'>
 

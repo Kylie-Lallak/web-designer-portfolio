@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/portfolio.css';
 import Card from '../componets/PortfolioCard';
+import portfolioCards from '../componets/portfolioCards';
 
 export default function portfolio() {
   return (
@@ -13,10 +14,9 @@ export default function portfolio() {
       </div>
 
       <div id='card-container' className='mt-14 flex flex-col items-center gap-7 sm:flex-wrap sm:flex-row sm:items-center sm:justify-center'>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {portfolioCards.map((card, i) => (
+          <Card key={i} name={card.name} description={card.description} image={card.image} logo={card.logo} />
+        ))}
 
       </div>
 

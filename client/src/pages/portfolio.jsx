@@ -8,7 +8,7 @@ export default function portfolio() {
   return (
     <>
       <div id='port-header'>
-        <h1 className=' font-semibold text-center text-4xl sm:text-6xl pt-10'>See my Work</h1>
+        <h1 className=' font-semibold text-center text-4xl sm:text-6xl pt-16'>See my Work</h1>
         <p className=' mx-24 mt-4 text-center sm:mx-32 text-gray-600'> Check out my portfolio. If something sparks your interest, let's connect.</p>
 
 
@@ -23,8 +23,8 @@ export default function portfolio() {
 
 
       <div id='about-contact' className='pb-14 pt-10'>
-        <h1 className='mb-10 font-semibold text-center text-4xl sm:text-6xl mt-12 '>Ready to get started?</h1>
-        <h3 className='mb-10 font-semibold text-center text-lg  mt-12  '>You know about me, let’s talk about you.</h3>
+        <h1 className='mb-10 font-semibold text-center text-4xl sm:text-6xl mt-12 '>Like what you see?</h1>
+        <h3 className='mb-10 mx-12 sm:mx-20 md:mx-80 text-gray-600  text-center text-lg  mt-12  '>Let’s bring your vision to life! Whether you have a project in mind or just want to chat about ideas, I’d love to hear from you. </h3>
 
 
         <div id='about-contact-buttons' className='flex flex-row gap-4 justify-center sm:gap-5'>

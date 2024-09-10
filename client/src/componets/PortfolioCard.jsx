@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/portfolioCard.css';
-import KnoIcon from '../images/knowlexIcon.png';
-import KnoImage from '../images/knowlexImage.png';
+
 
 export default function PortfolioCard({ name, description, logo, image }) {
   return (

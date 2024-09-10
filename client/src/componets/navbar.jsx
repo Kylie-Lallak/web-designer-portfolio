@@ -10,7 +10,7 @@ export default function Navbar() {
     return (
         <nav className=' pb-4 flex justify-between items-center w-[92%] mx-auto' id='nav'>
             <h1 className='font-bold text-lg'>
-                Portfolio
+                Portfolio.
             </h1>
 
 

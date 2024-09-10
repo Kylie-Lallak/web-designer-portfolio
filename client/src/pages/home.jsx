@@ -8,7 +8,7 @@ export default function home() {
   return (
     <div id='background' className='flex flex-col sm:flex-row justify-center '>
 
-      <div id='header' className='-scroll-mt-32 text-center justify-center sm:text-left sm:ml-12 sm:mt-24'>
+      <div id='header' className='mt-32 text-center justify-center sm:text-left sm:ml-12 sm:mt-24'>
 
 
         <h1 id="header-intro" className='text-3xl sm:text-4xl md:text-5xl font-bold mb-3'>Hi Im Jane Doe,</h1>

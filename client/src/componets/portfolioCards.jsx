@@ -1,4 +1,4 @@
-import KnowlexIcon from '../images/knowLexIcon.png'
+import KnowlexIcon from '../images/knowlexIcon.png'
 import KnowlexImage from '../images/knowlexImage.png'
 import Icon2 from '../images/icon2.png'
 import Icon3 from '../images/icon3.png'

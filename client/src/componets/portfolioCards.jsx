@@ -1,11 +1,11 @@
-import KnowlexIcon from '../../public/images/knowlexIcon.png'
-import KnowlexImage from '../../public/images/knowlexImage.png'
-import Icon2 from '../../public/images/icon2.png'
-import Icon3 from '../../public/images/icon3.png'
-import Icon4 from '../../public/images/icon4.png'
-import Image2 from '../../public/images/image2.png'
-import Image3 from '../../public/images/image3.png'
-import Image4 from '../../public/images/image4.png'
+import Icon1 from '/images/Icon1.png'
+import Image1 from '/images/Image1.png'
+import Icon2 from '/images/icon2.png'
+import Icon3 from '/images/icon3.png'
+import Icon4 from '/images/icon4.png'
+import Image2 from '/images/image2.png'
+import Image3 from '/images/image3.png'
+import Image4 from '/images/image4.png'
 
 
 
@@ -13,8 +13,8 @@ const portfolioCards = [
     {
         name: 'Knowlex',
         description: 'End to end application for Edtech industry. Knowlex is a platform where to exchange knowledge for other knowledge.',
-        logo: KnowlexIcon,
-        image: KnowlexImage
+        logo: Icon1,
+        image: Image1
 
 
     },

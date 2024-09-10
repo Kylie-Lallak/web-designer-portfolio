@@ -1,6 +1,6 @@
 import React from 'react'
-import Phone from '../../public/images/iphone.png';
-import Icons from '../../public/images/homeIcons.png'
+import Phone from '/images/iphone.png';
+import Icons from '/images/homeIcons.png'
 import '../styles/home.css';
 import { Link } from 'react-router-dom';
 

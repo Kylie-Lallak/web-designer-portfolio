@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Linkedin from '../../public/images/LinkedinIcon.png';
-import Facebook from '../../public/images/FacebookIcon.png';
-import Twitter from '../../public/images/TwitterIcon.png';
+import Linkedin from '/images/LinkedinIcon.png';
+import Facebook from '/images/FacebookIcon.png';
+import Twitter from '/images/TwitterIcon.png';
 
 
 export default function Footer() {

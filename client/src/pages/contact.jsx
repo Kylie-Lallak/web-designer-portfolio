@@ -1,8 +1,8 @@
 import React from 'react';
 import '../styles/contact.css';
-import Phone from '../../public/images/phone.png'
-import Email from '../../public/images/email.png'
-import Text from '../../public/images/text.png'
+import Phone from '/images/phone.png'
+import Email from '/images/email.png'
+import Text from '/images/text.png'
 export default function contact() {
   return (
     <>

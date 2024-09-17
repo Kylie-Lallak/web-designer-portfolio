@@ -19,21 +19,21 @@ export default function contact() {
       <div id='contact-card-container' className='flex flex-col justify-center items-center sm:flex-wrap sm:flex-row sm:gap-6'>
 
         <div className='contact-card mt-16'>
-          <div className='contact-img-container '> <img src={Phone} className='contact-img ' /> </div>
+          <div className='contact-img-container '> <img src={Phone} alt='phone icon' className='contact-img ' /> </div>
           <h1 className='contact-card-h1'>Call Me</h1>
           <p className='contact-card-p '>I'd love to talk, call me at</p>
           <p className='contact-card-p2'>(555) 123-4567</p>
         </div>
 
         <div className='contact-card mt-16'>
-          <a href='mailto:janedoe@gmail.com' target="_blank" id='contact-email-button'>   <div className='contact-img-container'> <img src={Email} className='contact-img ' /> </div> </a>
+          <a href='mailto:janedoe@gmail.com' target="_blank" id='contact-email-button'>   <div className='contact-img-container'> <img src={Email} alt='email icon' className='contact-img ' /> </div> </a>
           <h1 className='contact-card-h1'>Email Me</h1>
           <p className='contact-card-p '>Message me at</p>
           <p className='contact-card-p2'>JaneDoe@gmail.com</p>
         </div>
 
         <div className='contact-card mt-16'>
-          <div className='contact-img-container'> <img src={Text} className='contact-img ' /> </div>
+          <div className='contact-img-container'> <img src={Text} alt='icon of text messages' className='contact-img ' /> </div>
           <h1 className='contact-card-h1'>Text Me</h1>
           <p className='contact-card-p '>Shoot me a text at</p>
           <p className='contact-card-p2'>(555) 123-4567</p>

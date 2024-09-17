@@ -17,9 +17,9 @@ export default function Footer() {
         <h4 className='text-sm text-slate-500'>© 2024 Kylie Lallak. All Rights Reserved</h4>
 
         <div className='flex flex-row gap-4 items-center justify-center'>
-          <a href='https://x.com/' target="_blank">   <img src={Twitter} className='hover:scale-125' /> </a>
-          <a href='https://www.linkedin.com/' target="_blank">   <img src={Linkedin} className='hover:scale-125' /> </a>
-          <a href='https://www.facebook.com/' target="_blank"> <img src={Facebook} className='hover:scale-125' /></a>
+          <a href='https://x.com/' target="_blank">   <img src={Twitter} alt='twitter logo' className='hover:scale-125' /> </a>
+          <a href='https://www.linkedin.com/' target="_blank">   <img src={Linkedin} alt='linked in logo' className='hover:scale-125' /> </a>
+          <a href='https://www.facebook.com/' target="_blank"> <img src={Facebook} alt='facebook logo' className='hover:scale-125' /></a>
         </div>
       </div>
 

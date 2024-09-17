@@ -17,7 +17,7 @@ export default function PortfolioCard({ name, description, logo, image }) {
 
       </div>
       <div id='card-bottom'>
-        <img src={image} id='card-image' />
+        <img src={image} id='card-image' alt='alt'/>
 
       </div>
 

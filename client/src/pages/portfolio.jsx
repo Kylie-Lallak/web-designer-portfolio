@@ -16,7 +16,7 @@ export default function portfolio() {
 
       <div id='card-container' className='mt-14 flex flex-col items-center gap-7 sm:flex-wrap sm:flex-row sm:items-center sm:justify-center'>
         {portfolioCards.map((card, i) => (
-          <Card key={i} name={card.name} description={card.description} image={card.image} logo={card.logo} />
+          <Card key={i} name={card.name} description={card.description} image={card.image} logo={card.logo} alt={card.alt}/>
         ))}
 
       </div>

@@ -33,7 +33,7 @@ export default function about() {
 
           <div className='shadow-2xl about-card'>
             <div className='about-card-top'>
-              <img className='about-image' src={about1}></img>
+              <img className='about-image' alt='purple graphic of a computer' src={about1}></img>
 
             </div>
 
@@ -45,7 +45,7 @@ export default function about() {
 
           <div className='shadow-2xl about-card'>
             <div className='about-card-top'>
-              <img className='about-image' src={about2}></img>
+              <img className='about-image' alt='image of a labtop with icons like thumbs up and likes' src={about2}></img>
 
             </div>
 
@@ -57,7 +57,7 @@ export default function about() {
 
           <div className='shadow-2xl about-card'>
             <div className='about-card-top'>
-              <img className='about-image' src={about3}></img>
+              <img className='about-image' src={about3} alt='graphic of a hand drawing on a tablet'></img>
 
             </div>
 

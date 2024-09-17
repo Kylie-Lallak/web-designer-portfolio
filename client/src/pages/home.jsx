@@ -34,8 +34,8 @@ export default function home() {
       </div>
 
       <div className='flex justify-center items-center mt-6'>
-        <img src={Icons} id='icons' />
-        <img id="phone" src={Phone} className='mx-auto'></img>
+        <img src={Icons} id='icons' alt='3 icons, figma logo, a graph icon, and a star icon'/>
+        <img id="phone" src={Phone} alt='image of a phone that has an app open' className='mx-auto'></img>
 
       </div>
 

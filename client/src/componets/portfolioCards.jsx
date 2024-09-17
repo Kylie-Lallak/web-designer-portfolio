@@ -14,7 +14,8 @@ const portfolioCards = [
         name: 'Knowlex',
         description: 'End to end application for Edtech industry. Knowlex is a platform where to exchange knowledge for other knowledge.',
         logo: Icon1,
-        image: Image1
+        image: Image1,
+        alt: 'a image of a UI UX design for an app'
 
 
     },
@@ -22,20 +23,24 @@ const portfolioCards = [
         name: 'Accessible Travel',
         description: 'Adding a feature to the Ryanair application: booking and managing air travel Special Assistance.',
         logo: Icon2,
-        image: Image2
+        image: Image2,
+        alt: 'image of a travel website design'
     },
     {
         name: 'Docmeup',
         description: 'Healthcare platform that aims at assisting users through the booking a medical appointment process.',
         logo: Icon3,
-        image: Image3
+        image: Image3,
+        alt: 'image of two phones with an app open'
 
     },
     {
         name: 'Obgyn Website',
         description: 'Responsive Website designed for a Gynaecological Clinic located in a small town.',
         logo: Icon4,
-        image: Image4
+        image: Image4,
+        alt: 'image of two computers with a website open'
+
 
     }
 ];
